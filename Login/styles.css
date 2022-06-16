@@ -1,0 +1,45 @@
+body{
+    background-color: blue;
+}
+
+.login{
+    width: 600px;
+    height: 400px;
+    background: white;
+    border-radius: 10px;
+    margin: 20% auto;
+    overflow: hidden;
+    display: flex;
+}
+
+.img{
+    background: url('http://placekitten.com/1000/1000');
+    width: 40%;
+    background-size: cover;
+
+}
+
+.form{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    width: 80%;
+    border: 1px solid #cccccc;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px 0;
+}
+
+.input input{
+    width: 100%;
+    margin: 0 5px;
+    border: 0;
+}

@@ -1,0 +1,51 @@
+body {
+    font-family: 'roboto', sans-serif;
+    font-size: 13px;
+    background-color: black;
+}
+
+.post {
+    margin: auto;
+    background-color: antiquewhite;
+    border: 1px;
+    border-radius: 1px;
+    border-color: black;
+    border-style: solid;
+    width: 500px;
+    height: 600px;
+
+}
+
+.header {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    display: inline-block;
+}
+
+
+
+.image {
+    width: 100vh;
+    height: auto;
+}
+
+.icons {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+i[class="fa-regular fa-bookmark"] {
+    margin-left: 400px;
+}
+
+.txt {
+    margin-left: 10px;
+    font-weight: 300;
+}
